@@ -1,0 +1,369 @@
+/*banner section css starts here*/
+
+.services-new-hero-section.mobappsaudi {
+  margin-top: -2px;
+}
+
+@media only screen and (min-width: 1366px) {
+  .services-new-hero-section.mobappsaudi {
+    background-position: 0 -68px !important;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section h1 {
+    font-size: 68px;
+  }
+}
+
+.services-new-hero-section.mobappsaudi .services-hero-section__wrapper {
+  right: 0;
+  bottom: 72px;
+  top: auto;
+  transform: none;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1499px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section__wrapper {
+    bottom: 36px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section__wrapper {
+    bottom: -12px;
+    right: 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section__wrapper {
+    bottom: -52px;
+    right: 7px;
+  }
+}
+
+.services-new-hero-section.mobappsaudi .services-hero-section__wrapper img {
+  max-width: 100%;
+}
+@media only screen and (min-width: 1500px) and (max-width: 1699px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section__wrapper img {
+    max-height: 100%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1499px) {
+  .services-new-hero-section.mobappsaudi .services-hero-section__wrapper img {
+    max-width: 550px;
+    max-height: 550px;
+  }
+}
+
+/*banner section css starts here*/
+
+/*our clients section css starts here*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1499px) {
+  .section-services-new-client-testimonial.saudi-clients {
+    z-index: 99;
+  }
+}
+
+/*our clients section css ends here*/
+
+/*new mobile mi process section css starts here*/
+
+@media only screen and (max-width: 991px) {
+  .sec-mi-new-process .inner-item .item-outer {
+    margin: 30px 0;
+  }
+}
+
+.sec-mi-new-process .pro-item {
+  background-color: var(--clr-off-white);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  grid-gap: 30px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 105px;
+}
+@media only screen and (max-width: 1599px) {
+  .sec-mi-new-process .inner-item .pro-item {
+    padding: 20px;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-mi-new-process .inner-item .pro-item {
+    padding: 16px;
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
+    border-radius: 16px;
+  }
+}
+
+.sec-mi-new-process .inner-item .process-title {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 105px;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1699px) {
+  .sec-mi-new-process .inner-item .process-title img {
+    max-width: 70%;
+  }
+}
+
+.sec-mi-new-process .inner-item .pro-item .process-icon {
+  height: 56px;
+  width: 56px;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-mi-new-process .inner-item .pro-item .process-icon {
+    height: 46px;
+    width: 46px;
+  }
+}
+
+.sec-mi-new-process .inner-item .pro-item .process-icon span {
+  color: var(--clr-black);
+}
+
+.sec-mi-new-process .inner-item .pro-item .process-icon .icon {
+  width: 24px;
+  height: 24px;
+}
+/*new mobile mi process section css ends here*/
+
+/*new mobile mi hiresaudi section css starts here*/
+@media only screen and (max-width: 991px) {
+  .sec-mi-hire-saudi .inner-item .item-outer {
+    margin: 30px 0;
+  }
+}
+
+.sec-mi-hire-saudi .pro-item {
+  background-color: #252b2b;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 105px;
+  border: 1px solid var(--clr-dark-black);
+}
+@media only screen and (max-width: 1599px) {
+  .sec-mi-hire-saudi .inner-item .pro-item {
+    padding: 20px;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-mi-hire-saudi .inner-item .pro-item {
+    padding: 16px;
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
+    border-radius: 16px;
+  }
+}
+
+.sec-mi-hire-saudi .inner-item .process-title {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 105px;
+  max-width: 650px;
+}
+
+.sec-mi-hire-saudi .inner-item .pro-item .process-icon {
+  height: 56px;
+  width: 56px;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-mi-hire-saudi .inner-item .pro-item .process-icon {
+    height: 46px;
+    width: 46px;
+  }
+}
+
+.sec-mi-hire-saudi .inner-item .pro-item .process-icon span {
+  color: var(--clr-black);
+}
+
+/*new mobile mi process section css ends here*/
+
+/*sec-we-serve saudipage section css starts here*/
+
+.sec-we-serve.saudipage .we-serve__item .icon::before {
+  background-color: var(--clr-black);
+}
+.sec-we-serve.saudipage .we-serve__title,
+.sec-we-serve.saudipage .we-serve__text {
+  color: var(--clr-black);
+}
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-prev,
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-next {
+  border: 1px solid var(--clr-black);
+}
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-prev:before,
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-next:before {
+  background-color: var(--clr-black);
+}
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-prev:hover,
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-next:hover {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-prev span,
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-next span {
+  color: var(--clr-black);
+}
+.sec-we-serve.saudipage .we-serve__nav .we-serve__slider-button-prev:hover span,
+.sec-we-serve.saudipage
+  .we-serve__nav
+  .we-serve__slider-button-next:hover
+  span {
+  color: var(--clr-white);
+}
+
+/*sec-we-serve saudipage section css ends here*/
+
+/*sec-book-with-us saudipage section css starts here*/
+.sec-book-with-us.saudipage .inner-content {
+  align-items: end;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  .sec-book-with-us.saudipage .inner-content .content-side {
+    max-width: 530px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sec-book-with-us.saudipage .inner-content .content-side {
+    max-width: 580px !important;
+  }
+}
+
+.sec-book-with-us.saudipage .inner-content .book-wrapper .content-list li {
+  border: 2px solid var(--clr-black);
+  background-color: #3f4444;
+}
+.sec-book-with-us.saudipage
+  .inner-content
+  .book-wrapper
+  .content-list
+  li:after {
+  background-color: transparent;
+  backdrop-filter: none;
+}
+
+.sec-book-with-us.saudipage .book-wrapper .img-wrap {
+  position: absolute;
+  left: -350px;
+  bottom: 0;
+  top: -38%;
+}
+
+@media only screen and (max-width: 1599px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap {
+    top: -40px;
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1499px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap {
+    display: none;
+  }
+}
+.sec-book-with-us.saudipage .book-wrapper .img-wrap img {
+  width: 400px;
+  aspect-ratio: auto 400/340;
+  max-width: none;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1599px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap img {
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1499px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap img {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .sec-book-with-us.saudipage .book-wrapper .img-wrap img {
+    max-width: 65%;
+  }
+}
+/*sec-book-with-us saudipage section css ends here*/
+
+/*sec-book-with-us saudipagebottom section css starts here*/
+
+.sec-book-with-us.saudipagebottom .book-wrapper {
+  position: absolute;
+  right: -2px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .sec-book-with-us.saudipagebottom .book-wrapper {
+    position: relative;
+  }
+}
+
+.sec-book-with-us.saudipagebottom .book-wrapper .img-wrap {
+  text-align: right;
+}
+.sec-book-with-us.saudipagebottom .book-wrapper .img-wrap img {
+  width: 533px;
+  aspect-ratio: auto 533/340;
+  max-width: 90%;
+  margin-right: 0;
+}
+@media only screen and (max-width: 1599px) {
+  .sec-book-with-us.saudipagebottom .book-wrapper .img-wrap img {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .sec-book-with-us.saudipagebottom .book-wrapper .img-wrap img {
+    max-width: 60%;
+  }
+}
+/*sec-book-with-us saudipagebottom section css ends here*/
+
+@media only screen and (max-width: 480px) {
+  .sec-our-industries.saudi-app .indus-nav-outer .btn-black span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sec-our-industries.saudi-app .indus-nav-outer .projects-delivered-arrows {
+    gap: 6px;
+  }
+}

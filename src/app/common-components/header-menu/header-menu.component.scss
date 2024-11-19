@@ -1,0 +1,25 @@
+// .sub-menu li:hover {
+//   background: #fff;
+//   //   color: #333;
+//   transition: 5ms;
+// }
+// .sub-menu li a:hover {
+//   color: #333;
+// }
+
+.header__nav-link {
+  color: #333 !important;
+  padding: 10px 25px;
+  justify-content: center;
+  border-radius: 30px;
+  background: #fff;
+  display: inline-flex;
+  position: relative;
+  gap: 10px;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #ef6b1b;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  -webkit-clip-path: inset(0 round 10px);
+  clip-path: inset(0 round 10px);
+}
